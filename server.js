@@ -18,8 +18,8 @@ const server = express();
 server.use(express.json());
 server.use(cookieParser());
 server.use(cors({
-    origin: 'http://localhost:5173', // Your frontend URL
-    origin: 'https://lims.netlify.app',
+    // origin: 'http://localhost:5173', // Your frontend URL
+    origin: 'https://lims-1.netlify.app',
     credentials: true
 }));
 
