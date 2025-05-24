@@ -19,7 +19,7 @@ server.use(express.json());
 server.use(cookieParser());
 server.use(cors({
     // origin: 'http://localhost:5173', // Your frontend URL
-    origin: 'https://lims-123.netlify.app',
+    origin: 'https://statelifeinsurance.netlify.app',
     credentials: true
 }));
 
